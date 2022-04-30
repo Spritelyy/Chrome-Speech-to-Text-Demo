@@ -12,7 +12,7 @@ function App() {
   return (
       <>
         <div style={{height:"100vh"}}>
-          <Router>
+          <Router basename="/">
             <AuthProvider>
               <Routes>
                 <Route path="/Chrome-Speech-to-Text-Demo/signup" element={<Signup/>} />

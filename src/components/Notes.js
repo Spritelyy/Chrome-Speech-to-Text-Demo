@@ -68,7 +68,7 @@ export default function Recordings() {
     const createTranscript = async () => {
         await addDoc(transcriptsCollectionRef, {title: newTitle, trans: newTrans, id: currentUser.uid }); 
         console.log("saved to database") 
-        navigate("/Chrome-Speech-to-Text-Demo/");
+        navigate("/Chrome-Speech-to-Text-Demo");
     }
 
   return (
