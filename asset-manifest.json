@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Chrome-Speech-to-Text-Demo/static/css/main.a206c516.css",
-    "main.js": "/Chrome-Speech-to-Text-Demo/static/js/main.b5c6bff4.js",
+    "main.js": "/Chrome-Speech-to-Text-Demo/static/js/main.6f0475cf.js",
     "static/media/bootstrap-icons.woff?": "/Chrome-Speech-to-Text-Demo/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/Chrome-Speech-to-Text-Demo/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "index.html": "/Chrome-Speech-to-Text-Demo/index.html",
     "main.a206c516.css.map": "/Chrome-Speech-to-Text-Demo/static/css/main.a206c516.css.map",
-    "main.b5c6bff4.js.map": "/Chrome-Speech-to-Text-Demo/static/js/main.b5c6bff4.js.map"
+    "main.6f0475cf.js.map": "/Chrome-Speech-to-Text-Demo/static/js/main.6f0475cf.js.map"
   },
   "entrypoints": [
     "static/css/main.a206c516.css",
-    "static/js/main.b5c6bff4.js"
+    "static/js/main.6f0475cf.js"
   ]
 }
