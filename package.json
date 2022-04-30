@@ -2,7 +2,7 @@
   "homepage": "https://spritelyy.github.io/Chrome-Speech-to-Text-Demo/",
   "name": "firebase-react-gotalk-demo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@splinetool/react-spline": "^2.1.0",
     "@splinetool/runtime": "^0.9.36",
