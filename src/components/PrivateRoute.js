@@ -7,7 +7,7 @@ export default function PrivateRoute({ children }) {
 
   const { currentUser } = useAuth();
 
-  return currentUser ? children : <Navigate to="/Chrome-Speech-to-Text-Demo/login" />;
+  return currentUser ? children : <Navigate to="/login" />;
 }
 
 

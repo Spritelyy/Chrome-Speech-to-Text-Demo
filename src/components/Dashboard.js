@@ -21,7 +21,7 @@ export default function Dashboard() {
 
         try {
             await logout()
-            navigate("/Chrome-Speech-to-Text-Demo/login")
+            navigate("/login")
         } catch {
             setError('Failed to log out')
         }
@@ -48,7 +48,7 @@ export default function Dashboard() {
                 <strong>Signed in as:</strong> {currentUser.email}
               </div>
               <div class="d-flex justify-content-center">
-                <Link to="/Chrome-Speech-to-Text-Demo/notes" className="btn btn-dark w-50 mb-3">Notes</Link>
+                <Link to="/notes" className="btn btn-dark w-50 mb-3">Notes</Link>
               </div>
           <Container>
             <Card >
