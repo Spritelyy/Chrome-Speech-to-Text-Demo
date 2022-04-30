@@ -23,7 +23,7 @@ export default function Signup() {
           setError('')
           setLoading(true)
           await signup(emailRef.current.value, passwordRef.current.value)
-          navigate("/")
+          navigate("/Chrome-Speech-to-Text-Demo")
       } catch {setError("Failed to create an account")}
 
       setLoading(false)
@@ -55,7 +55,7 @@ export default function Signup() {
                     </Card.Body>
                 </Card>
                 <div className='w-100 text-center mt-2'>
-                    Already have an account? <Link to="/login" >Log In</Link>
+                    Already have an account? <Link to="/Chrome-Speech-to-Text-Demo/login" >Log In</Link>
                 </div>
             </div>
         </Container>

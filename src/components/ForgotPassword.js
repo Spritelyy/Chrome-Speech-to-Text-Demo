@@ -41,12 +41,12 @@ export default function ForgotPassword() {
                             <Button disabled={loading} className='w-100 mt-3 btn-dark' type='submit'>Reset Password</Button>
                         </Form>
                         <div className='w-100 text-center mt-3'>
-                            <Link to="/login" style={{ color: "#000"}}>Login</Link>
+                            <Link to="/Chrome-Speech-to-Text-Demo/login" style={{ color: "#000"}}>Login</Link>
                         </div>
                     </Card.Body>
                 </Card>
                 <div className='w-100 text-center mt-2'>
-                    Need an account? <Link to="/signup">Sign Up</Link>
+                    Need an account? <Link to="/Chrome-Speech-to-Text-Demo/signup">Sign Up</Link>
                 </div>
             </div>
         </Container>

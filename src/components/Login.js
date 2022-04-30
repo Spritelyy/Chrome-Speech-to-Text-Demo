@@ -18,7 +18,7 @@ export default function Login() {
           setError('')
           setLoading(true)
           await login(emailRef.current.value, passwordRef.current.value)
-          navigate("/")
+          navigate("/Chrome-Speech-to-Text-Demo")
       } catch {setError("Failed to log in")}
 
       setLoading(false)
@@ -44,12 +44,12 @@ export default function Login() {
                             <Button disabled={loading} className='w-100 mt-3 btn-dark' type='submit'>Log In</Button>
                         </Form>
                         <div className='w-100 text-center mt-3'>
-                            <Link to="/forgot-password" style={{ color: "#000"}}>Forgot Password?</Link>
+                            <Link to="/Chrome-Speech-to-Text-Demo/forgot-password" style={{ color: "#000"}}>Forgot Password?</Link>
                         </div>
                     </Card.Body>
                 </Card>
                 <div className='w-100 text-center mt-2'>
-                    Need an account? <Link to="/signup" >Sign Up</Link>
+                    Need an account? <Link to="/Chrome-Speech-to-Text-Demo/signup" >Sign Up</Link>
                 </div>
             </div>
         </Container>
