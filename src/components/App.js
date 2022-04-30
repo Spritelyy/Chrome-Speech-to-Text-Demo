@@ -15,11 +15,11 @@ function App() {
           <Router>
             <AuthProvider>
               <Routes>
-                <Route path="/signup" element={<Signup/>} />
-                <Route path="/login" element={<Login/>} />
-                <Route excat path="/" element={<PrivateRoute><Dashboard /></PrivateRoute>}></Route>
-                <Route path="/notes" element={<PrivateRoute><Notes /></PrivateRoute>}></Route>
-                <Route path="/forgot-password" element={<ForgotPassword/>} />
+                <Route path="Chrome-Speech-to-Text-Demo/signup" element={<Signup/>} />
+                <Route path="Chrome-Speech-to-Text-Demo/login" element={<Login/>} />
+                <Route excat path="Chrome-Speech-to-Text-Demo/" element={<PrivateRoute><Dashboard /></PrivateRoute>}></Route>
+                <Route path="Chrome-Speech-to-Text-Demo/notes" element={<PrivateRoute><Notes /></PrivateRoute>}></Route>
+                <Route path="Chrome-Speech-to-Text-Demo/forgot-password" element={<ForgotPassword/>} />
               </Routes>
             </AuthProvider>
           </Router>

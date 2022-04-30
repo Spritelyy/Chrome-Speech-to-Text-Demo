@@ -83,7 +83,7 @@ export default function Recordings() {
                     <Card className="w-100" style={{ maxWidth: '400px', backgroundColor: '#FECA72'}}>
                         <Card.Body>
                         <h1>Transcribe</h1>
-                        <Link to="/" className="btn btn-dark mt-1 mb-3">Dashboard</Link>
+                        <Link to="/Chrome-Speech-to-Text-Demo/" className="btn btn-dark mt-1 mb-3">Dashboard</Link>
                         <Card>
                             <Card.Body>
                                 <h2>Current Note</h2>
